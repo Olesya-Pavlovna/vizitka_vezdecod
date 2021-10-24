@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+.flex1 {
+    flex: 1;
+}
+
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #f7f7f7;
+}
+
+
+header {
+    -webkit-border-radius: 7px 7px 7px 7px;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 1px 1px 1px 1px #57ABFF;
+box-shadow: 1px 1px 1px 1px #57ABFF;
+    max-width: 1300px;
+    margin: 0 auto;
+    border-width: 0.14px;
+    border-color: #b5b7ba;
+    border-style: solid;
+    background-color: #8a3ed587;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header a {
+    color: #17329e;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #f2ecf5;
+}
+
+
+header a:hover,
+   .show-block a:hover,
+   .show-block:hover {
+    color: #9b4db3fc;
+}
+
+
+header a:active {
+    color: #3e73b1;
+}
+
+
+.content {
+    padding-right: 1%;
+    padding-left: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.content img {
+    margin: 50px;
+    max-width: 500px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 1px 1px 1px 1px #E2D4FF;
+box-shadow: 1px 1px 1px 1px #E2D4FF;
+}
+
+
+p {
+    -webkit-border-radius: 7px 7px 7px 7px;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 1px 1px 1px 1px #E2D4FF;
+box-shadow: 1px 1px 1px 1px #E2D4FF;
+    text-align: justify;
+    background-color: #fff;
+    padding: 2% 2% 2% 2%;
+    color: #7d7979;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 30px;
+    width: 500px;
+}
+
+
+footer {
+    -webkit-border-radius: 7px 7px 7px 7px;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 1px 1px 1px 1px #57ABFF;
+box-shadow: 1px 1px 1px 1px #57ABFF;
+    height: 60px;
+    background-color: #8a3ed587;
+    margin-top: 3%;
+    color: #17329e;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
