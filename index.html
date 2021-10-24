@@ -7,9 +7,13 @@
 <title> Визитка </title>
 
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="like_button.js">
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
 </head>
+
+<div id="like_button_container"></div>
 
 <body>
 <div class="container">
@@ -43,5 +47,12 @@
 <footer> &copy;&nbsp;Олеся Павловна, 2021</footer>
 </div>
 
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Загрузим наш React-компонент. -->
+  <script src="like_button.js"></script>
+
 </body>
+
 </html>
